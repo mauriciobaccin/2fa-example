@@ -1,0 +1,94 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  margin: 2rem auto
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #bbbbbb;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 5rem 0;
+  border: 1px solid #535bf2;
+  background-color: #fafafa;
+}
+
+h1 {
+  color: #646cff;
+  font-size: 30px;
+}
+
+label {
+  color: #646cff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px 5px;
+  color: #000;
+  border: 1px solid #646cff;
+}
+
+button {
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #535bf2;
+  padding: 10px 5px;
+  color: #646cff;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #646cff;
+  color: #fff;
+}
+
+p {
+  max-width: 300px;
+  color:#666;
+  font-size: 12px;
+}
+
+.error {
+  color: #ff3333 
+}
+
+.copy input {
+  width: 70%;
+}
+.copy button {
+  padding: 5px 5px;
+  margin: 0 0 0 10px;
+}
+
+.reset-timer {
+  color: #000;
+  font-size: 16px;
+}
